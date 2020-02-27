@@ -1,0 +1,6 @@
+El código propuesto simula la interfaz de un Homebanking donde se puede realizar distintas transacciones: extraer dinero, depositar, transferir,etc.
+Para probar el funcionamiento se setearon los siguientes datos:
+LA CLAVE DE INGRESO ES 7846
+LAS CUENTAS DISPONIBLES PARA TRANSFERENCIA:
+	CUENTA1: 1234567
+	CUENTA2: 7654321
