@@ -228,7 +228,7 @@ function transferirDinero() {
 		}else{
 
 			if(haySaldoDisponible(montoAtransferir)){
-				numCuenta=prompt("Ingrese el numero de cuenta destino:");
+				numCuenta=prompt("Tus cuentas destino registradas son: \n Calzados SRL: "+ cuentaAmiga1 + " \n Franco Villareal: "+cuentaAmiga2+" \n Ingrese el numero de cuenta destino:");
 				if(numCuenta==cuentaAmiga1 || numCuenta==cuentaAmiga2){
 					restarDinero(montoAtransferir);
 					alert("Se han transferido "+montoAtransferir+"\nCuenta destino:"+numCuenta);
