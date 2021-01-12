@@ -11,7 +11,7 @@ var internet=570;
 var cuentaAmiga1=1234567; //numero de cuenta predefinido para la prueba de "transferir dinero".
 var cuentaAmiga2=7654321; //numero de cuenta predefinido para la prueba de "transferir dinero".
 
-var codSeguridad=7846; //codigo de seguridad predefinido para el inicio de sesion.
+var codSeguridad=8856; //codigo de seguridad predefinido para el inicio de sesion.
 var claveIngresada=null;
 var ingreso=false;
 
@@ -251,7 +251,7 @@ function transferirDinero() {
 function iniciarSesion() {
 
 	
-	var claveIngresada = prompt("Ingrese clave: ");
+	var claveIngresada = prompt("Ingrese clave: /n Estas en una version de prueba, clave sugerida 8856",8856);
 	var datoIncorrecto=validarDatoIncorrecto(claveIngresada); //consulto que no ingresen letras
 	
 	if(claveIngresada==codSeguridad && datoIncorrecto== false){
